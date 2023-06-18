@@ -20,10 +20,29 @@
                 <h2>Inicio de sesión</h2>
                 <form>
                     <div class="input_box">
-                        <input required type="email" placeholder="Email o télefono">
+                        <input required type="text" onkeypress="return SoloLetras(event);" placeholder="Nombre de usuario">
+                        <script>
+                            function SoloLetras(e){
+                                key= e.keyCode || e.which;
+                                tecla = String.fromCharCode(key).toString();
+                                letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnopqrstuvwxyzáéíóú";
+                                especiales = [8,13];
+                                tecla_especial = false
+                                for(var i in especiales){
+                                    if(key == especiales[i]){
+                                        tecla_especial = true;
+                                        break;
+                                    }
+                                }
+                                if(letras.indexOF(tecla) == -1 && !tecla_especial){
+                                    alert("Ingrese solo letras");
+                                    return false;
+                                }
+                            }
+                        </script>
                     </div>
                     <div class="input_box">
-                        <input required type="password" placeholder="Contraseña">
+                        <input required type="password"  placeholder="Contraseña">
                     </div>
                     <div>
                         <button class="submit">
