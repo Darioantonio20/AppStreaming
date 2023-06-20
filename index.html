@@ -45,10 +45,46 @@
                         <input required type="password"  placeholder="Contraseña">
                     </div>
                     <div>
-                        <button class="submit">
+                        <button onclick="redireccionar('streaming.html')" class="submit">
                             Entrar
                         </button>
+                        <script>
+                            function redireccionar(url) {
+                              window.location.href = url;
+                            }
+                        </script>
                     </div>
+                </form>
+                <title>Validación de usuario y contraseña</title>
+                <script>
+                    function validarFormulario() {
+                    var usuario = document.getElementById("usuario").value;
+                    var contraseña = document.getElementById("contraseña").value;
+                    
+                    // Valores predefinidos para usuario y contraseña
+                    var usuarioValido = "usuario123";
+                    var contraseñaValida = "contraseña123";
+                    
+                    if (usuario === usuarioValido && contraseña === contraseñaValida) {
+                        alert("Inicio de sesión exitoso");
+                        // Aquí puedes redirigir a otra página o realizar alguna otra acción
+                    } else {
+                        alert("Usuario o contraseña incorrectos");
+                    }
+                    }
+                </script>
+                </head>
+                <body>
+                <h1>Inicio de sesión</h1>
+                
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required><br><br>
+                    
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" required><br><br>
+                    
+                    <input type="button" value="Iniciar sesión" onclick="validarFormulario()">
                 </form>
                 <div class="support">
                     <div class="remember">
