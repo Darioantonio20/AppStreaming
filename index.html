@@ -20,7 +20,7 @@
                 <h2>Inicio de sesión</h2>
                 <form>
                     <div class="input_box">
-                        <input required type="text" onkeypress="return SoloLetras(event);" placeholder="Nombre de usuario">
+                        <input required type="text" id="usuario" name="usuario" onkeypress="return SoloLetras(event);" placeholder="Nombre de usuario">
                         <script>
                             function SoloLetras(e){
                                 key= e.keyCode || e.which;
@@ -42,17 +42,12 @@
                         </script>
                     </div>
                     <div class="input_box">
-                        <input required type="password"  placeholder="Contraseña">
+                        <input required type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
                     </div>
                     <div>
-                        <button onclick="redireccionar('streaming.html')" class="submit">
+                        <button value="Iniciar sesión" onclick="validarFormulario()" class="submit">
                             Entrar
                         </button>
-                        <script>
-                            function redireccionar(url) {
-                              window.location.href = url;
-                            }
-                        </script>
                     </div>
                 </form>
                 <title>Validación de usuario y contraseña</title>
@@ -60,32 +55,20 @@
                     function validarFormulario() {
                     var usuario = document.getElementById("usuario").value;
                     var contraseña = document.getElementById("contraseña").value;
-                    
-                    // Valores predefinidos para usuario y contraseña
-                    var usuarioValido = "usuario123";
-                    var contraseñaValida = "contraseña123";
-                    
+                    var usuarioValido = "Dario Antonio Gutierrez Alvarez";
+                    var contraseñaValida = "hetore";
                     if (usuario === usuarioValido && contraseña === contraseñaValida) {
+                        setTimeout(function() {
+                        window.location.href = 'streaming.html';
+                        }, 1000);
                         alert("Inicio de sesión exitoso");
-                        // Aquí puedes redirigir a otra página o realizar alguna otra acción
                     } else {
                         alert("Usuario o contraseña incorrectos");
+                        alert("Verifique si es necesario");
                     }
                     }
                 </script>
                 </head>
-                <body>
-                <h1>Inicio de sesión</h1>
-                
-                <form>
-                    <label for="usuario">Usuario:</label>
-                    <input type="text" id="usuario" name="usuario" required><br><br>
-                    
-                    <label for="contraseña">Contraseña:</label>
-                    <input type="password" id="contraseña" name="contraseña" required><br><br>
-                    
-                    <input type="button" value="Iniciar sesión" onclick="validarFormulario()">
-                </form>
                 <div class="support">
                     <div class="remember">
                         <span><input class="input-remember" type="checkbox"></span>
