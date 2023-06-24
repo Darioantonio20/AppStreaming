@@ -9,6 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/videos.css">
     <title>Movie Design</title>
 </head>
 
@@ -20,12 +21,6 @@
             </div>
             <div class="menu-container">
                 <ul class="menu-list">
-                    <li class="menu-list-item active">Home</li>
-                    <li class="menu-list-item">Movies</li>
-                    <li class="menu-list-item">Series</li>
-                    <li class="menu-list-item">Popular</li>
-                    <li class="menu-list-item">Trends</li>
-
                 </ul>
             </div>
             <div class="profile-container">
@@ -55,42 +50,83 @@
         <div class="content-container">
             <div class="featured-content"
                 style="height:50%; width:auto; background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('assets/img/politecnica.jpeg');">
-                <p class="featured-desc">Nuestra mejor disposición en documentales dirigidos a la Politécnica de Chiapas.</p>
-                <button class="movie-list-item-button">Ver más</button>
+                <p class="featured-desc">Nuestros mejores cortos y traillers para alumnos de la Politécnica de
+                    Chiapas.</p>
+                <button class="movie-list-item-button">Ver </button>
             </div>
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Anime</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img loading="lazy" class="movie-list-item-img" src="assets/img/deathNote.jpeg" alt="">
-                            <span class="movie-list-item-title">Death note</span>
-                            <p class="movie-list-item-desc">Las Death Notes que originalmente pertenecen a los Dioses de la Muerte.</p>
-                            <button class="movie-list-item-button">Ver más</button>
-                        </div>
-                        <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/camehamehouse.jpg" alt="">
                             <span class="movie-list-item-title">Dragon Ball Z</span>
-                            <p class="movie-list-item-desc">Dragon Ball Z y adapta los últimos 325 capítulos de la serie de manga Dragon Ball.</p>
-                            <button class="movie-list-item-button">Ver más</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img loading="lazy" class="movie-list-item-img" src="assets/img/hero.jpg" alt="">
-                            <span class="movie-list-item-title">My Hero Academy</span>
-                            <p class="movie-list-item-desc">Es una serie de manga escrita e ilustrada por Kōhei Horikoshi.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Dragon Ball Z y adapta los últimos 325 capítulos de la serie
+                                de manga Dragon Ball.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn">Ver</a>
+                                <div class="video-container">
+                                    <span class="close">&#10006;</span>
+                                    <video src="assets/img/DragonBallZC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/naruto.jpg" alt="">
                             <span class="movie-list-item-title">Naruto</span>
-                            <p class="movie-list-item-desc">Es una serie de manga escrita e ilustrada por Masashi Kishimoto.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Es una serie de manga escrita e ilustrada por Masashi
+                                Kishimoto.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn1">Ver</a>
+                                <div class="video-container1">
+                                    <span class="close1">&#10006;</span>
+                                    <video src="assets/img/NarutoIntroC.mp4" controls ></video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-list-item">
+                            <img loading="lazy" class="movie-list-item-img" src="assets/img/deathNote.jpeg" alt="">
+                            <span class="movie-list-item-title">Death note</span>
+                            <p class="movie-list-item-desc">Las Death Notes que originalmente pertenecen a los Dioses de
+                                la Muerte.</p>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn2">Ver</a>
+                                <div class="video-container2">
+                                    <span class="close2">&#10006;</span>
+                                    <video src="assets/img/DeathNoteC.mp4" controls ></video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-list-item">
+                            <img loading="lazy" class="movie-list-item-img" src="assets/img/hero.jpg" alt="">
+                            <span class="movie-list-item-title">My Hero Academy</span>
+                            <p class="movie-list-item-desc">Es una serie de manga escrita e ilustrada por Kōhei
+                                Horikoshi.</p>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn3">Ver</a>
+                                <div class="video-container3">
+                                    <span class="close3">&#10006;</span>
+                                    <video src="assets/img/MyHeroAcademyC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/rikyandmorty.jpg" alt="">
                             <span class="movie-list-item-title">Rick & Morty</span>
-                            <p class="movie-list-item-desc">Es una serie de televisión estadounidense de animación para adultos.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Es una serie de televisión estadounidense de animación para
+                                adultos.</p>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn4">Ver</a>
+                                <div class="video-container4">
+                                    <span class="close4">&#10006;</span>
+                                    <video src="assets/img/RickAndMortyC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="" src="assets/img/1.jpg" alt="">
@@ -99,6 +135,7 @@
                     <i class="fas fa-chevron-right arrow"></i>
                 </div>
             </div>
+
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Peliculas</h1>
                 <div class="movie-list-wrapper">
@@ -107,31 +144,70 @@
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/monos.jpg" alt="">
                             <span class="movie-list-item-title">Monos</span>
                             <p class="movie-list-item-desc">En la cima de una imponente montaña, en Colombia.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn5">Ver</a>
+                                <div class="video-container5">
+                                    <span class="close5">&#10006;</span>
+                                    <video src="assets/img/PlanetaDeSimios.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/ridick.jpg" alt="">
                             <span class="movie-list-item-title">Riddick</span>
-                            <p class="movie-list-item-desc">Riddick es una película de ciencia ficción protagonizada por Vin Diesel.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Riddick es una película de ciencia ficción protagonizada por
+                                Vin Diesel.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn6">Ver</a>
+                                <div class="video-container6">
+                                    <span class="close6">&#10006;</span>
+                                    <video src="assets/img/Riddick.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/robocop.jpg" alt="">
                             <span class="movie-list-item-title">Robocop</span>
-                            <p class="movie-list-item-desc">A pesar de su endurecido exterior, RoboCop es atormentado por fragmentos de memoria.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">A pesar de su endurecido exterior, RoboCop es atormentado
+                                por fragmentos de memoria.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn7">Ver</a>
+                                <div class="video-container7">
+                                    <span class="close7">&#10006;</span>
+                                    <video src="assets/img/robocopC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/11.jpg" alt="">
                             <span class="movie-list-item-title">Kick-Ass 2</span>
-                            <p class="movie-list-item-desc">Él Kick Ass te da mayor sensación de estar por la ciudad limpiándola de enemigos.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Él Kick Ass te da mayor sensación de estar por la ciudad
+                                limpiándola de enemigos.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn8">Ver</a>
+                                <div class="video-container8">
+                                    <span class="close8">&#10006;</span>
+                                    <video src="assets/img/KickAss2.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/12.jpg" alt="">
                             <span class="movie-list-item-title">Emoji Movie</span>
-                            <p class="movie-list-item-desc">Es una película estadounidense de animación por computadora de 2017, producida por Sony Pictures Animation.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Es una película estadounidense de animación por computadora
+                                de 2017, producida por Sony Pictures Animation.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn9">Ver</a>
+                                <div class="video-container9">
+                                    <span class="close9">&#10006;</span>
+                                    <video src="assets/img/Emoji.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="" src="assets/img/1.jpg" alt="">
@@ -145,6 +221,85 @@
                 <img loading="lazy" class="featured-title" src="assets/img/f-t-2.png" alt="">
                 <p class="featured-desc">Proximamente en los child de Netflix.</p>
             </div>
+            <!--<div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="javascript:void">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="play" class="play">
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+                <div class="play-movie">
+                    <video id="m-video" width="340" height="240" controls>
+                        <source src="assets/img/NarutoIntro.mov" type="video/mp4">
+                    </video>
+                </div>
+            </div>-->
+            <script>
+                let scrollPrecentage = () => {
+                    let scrollProgress = document.getElementById("progress");
+                    let progressValue = document.getElementById("progress-value");
+                    let pos = document.documentElement.scrollTop;
+                    let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                    let scrollValue = Math.round(pos * 100 / calcHeight);
+                    scrollProgress.style.background =
+                        `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+                }
+                window.onscroll = scrollPrecentage;
+                window.onload = scrollPrecentage;
+
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    },
+                });
+
+                $(window).scroll(function () {
+                    if ($(document).scrollTop() > 20) {
+                        $('.navigation').addClass('fix-icon');
+                    } else {
+                        $('.navigation').addClass("fix-icon");
+                    }
+                });
+
+                $(document).on('click', '.play-btn a', function () {
+                    $('.play').addClass('active-popup');
+                });
+                $(document).on('click', '.close-movie', function () {
+                    $('.play').removeClass('active-popup');
+                });
+
+                $('.play-btn a').click(function () {
+                    $('#m-video')[0].play();
+                });
+                $('.close-movie').click(function () {
+                    $('#m-video')[0].pause();
+                });
+            </script>
             <div class="movie-list-container">
                 <h1 class="movie-list-title">Lo más reciente</h1>
                 <div class="movie-list-wrapper">
@@ -152,38 +307,71 @@
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/1.jpeg" alt="">
                             <span class="movie-list-item-title">Her</span>
-                            <p class="movie-list-item-desc">Her es una película dramática romántica estadounidense de ciencia ficción de 2013 escrita.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Her es una película dramática romántica estadounidense de
+                                ciencia ficción de 2013 escrita.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn10">Ver</a>
+                                <div class="video-container10">
+                                    <span class="close10">&#10006;</span>
+                                    <video src="assets/img/HerC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/2.jpeg" alt="">
                             <span class="movie-list-item-title">Star-Wars</span>
-                            <p class="movie-list-item-desc">La guerra de las galaxias, es una franquicia y universo compartido de fantasía.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">La guerra de las galaxias, es una franquicia y universo
+                                compartido de fantasía.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn11">Ver</a>
+                                <div class="video-container11">
+                                    <span class="close11">&#10006;</span>
+                                    <video src="assets/img/starwarsC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/15.jpg" alt="">
                             <span class="movie-list-item-title">Lego Batman</span>
                             <p class="movie-list-item-desc">The LEGO Batman Movie.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn12">Ver</a>
+                                <div class="video-container12">
+                                    <span class="close12">&#10006;</span>
+                                    <video src="assets/img/BatmanC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/3.jpg" alt="">
                             <span class="movie-list-item-title">Storm</span>
-                            <p class="movie-list-item-desc">A finales de los sesenta en el sevillano barrio de San Jerónimo, cuando tocar rock y llevar melenas era aún objeto.</p>
-                            <button class="movie-list-item-button">Ver más</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img loading="lazy" class="movie-list-item-img" src="assets/img/4.jpg" alt="">
-                            <span class="movie-list-item-title">1917</span>
-                            <p class="movie-list-item-desc">1917 is a 2019 British war film directed and produced by Sam Mendes, who co-wrote it with Krysty Wilson-Cairns.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">A finales de los sesenta en el sevillano barrio de San
+                                Jerónimo, cuando tocar rock y llevar melenas era aún objeto.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn13">Ver</a>
+                                <div class="video-container13">
+                                    <span class="close13">&#10006;</span>
+                                    <video src="assets/img/stormC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/5.jpg" alt="">
                             <span class="movie-list-item-title">Avengers</span>
-                            <p class="movie-list-item-desc">Marvel's The Avengers (titulada The Avengers: Los Vengadores en Hispanoamérica y Los Vengadores en España).</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Marvel's The Avengers (titulada The Avengers: Los Vengadores
+                                en Hispanoamérica y Los Vengadores en España).</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn14">Ver</a>
+                                <div class="video-container14">
+                                    <span class="close14">&#10006;</span>
+                                    <video src="assets/img/avengersC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="" src="assets/img/1.jpg" alt="">
@@ -197,40 +385,72 @@
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
-                            <img loading="lazy" class="movie-list-item-img" loading="lazy" src="assets/img/17.jpg" alt="">
+                            <img loading="lazy" class="movie-list-item-img" loading="lazy" src="assets/img/17.jpg"
+                                alt="">
                             <span class="movie-list-item-title">Aquaman</span>
-                            <p class="movie-list-item-desc">Una aventura llena de acción que transcurre en el vasto y visualmente impresionante mundo submarino de los siete mares.</p>
-                            <button class="movie-list-item-button">Ver más</button>
-                        </div>
-                        <div class="movie-list-item">
-                            <img loading="lazy" class="movie-list-item-img" src="assets/img/18.jpg" alt="">
-                            <span class="movie-list-item-title">Fairy Tall</span>
-                            <p class="movie-list-item-desc">Pasa el tiempo y llegan a la isla donde se encuentra la tumba de la fundadora Mavis en la cual se realizan los juegos para rango S.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Una aventura llena de acción que transcurre en el vasto y
+                                visualmente impresionante mundo submarino de los siete mares.</p>
+                            <button class="movie-list-item-button">Ver</button>
+                            <div class="modal">
+                                <a class="btn15">Ver</a>
+                                <div class="video-container15">
+                                    <span class="close15">&#10006;</span>
+                                    <video src="assets/img/aquamanC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/19.jpg" alt="">
                             <span class="movie-list-item-title">Spiderman</span>
-                            <p class="movie-list-item-desc">Es una película de superhéroes estadounidense de 2002 basada en el personaje del mismo nombre de Marvel Comics.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <p class="movie-list-item-desc">Es una película de superhéroes estadounidense de 2002 basada
+                                en el personaje del mismo nombre de Marvel Comics.</p>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn16">Ver</a>
+                                <div class="video-container16">
+                                    <span class="close16">&#10006;</span>
+                                    <video src="assets/img/spidermanC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/7.jpg" alt="">
                             <span class="movie-list-item-title">Guerras</span>
                             <p class="movie-list-item-desc"> Referida por muchos años como la “Gran Guerra”.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn17">Ver</a>
+                                <div class="video-container17">
+                                    <span class="close17">&#10006;</span>
+                                    <video src="assets/img/guerras.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/thewicher.jpg" alt="">
                             <span class="movie-list-item-title">The Wicher</span>
                             <p class="movie-list-item-desc">The Witcher tiene lugar en un mundo fantástico medieval </p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn18">Ver</a>
+                                <div class="video-container18">
+                                    <span class="close18">&#10006;</span>
+                                    <video src="assets/img/thewitcherC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="movie-list-item-img" src="assets/img/smallville.jpg" alt="">
                             <span class="movie-list-item-title">Small Ville</span>
                             <p class="movie-list-item-desc">La historia comienza con la típica historia de Superman.</p>
-                            <button class="movie-list-item-button">Ver más</button>
+                            <button class="movie-list-item-button">Ver </button>
+                            <div class="modal">
+                                <a class="btn19">Ver</a>
+                                <div class="video-container19">
+                                    <span class="close19">&#10006;</span>
+                                    <video src="assets/img/smallvilleC.mp4" controls ></video>
+                                </div>
+                            </div>
                         </div>
                         <div class="movie-list-item">
                             <img loading="lazy" class="" src="assets/img/1.jpg" alt="">
@@ -241,6 +461,12 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/funciones.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.event.swipe/0.5.4/jquery.event.swipe.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js"
+        integrity="sha512-r1VIh4Y7FbSPjEAhxdspUgQ3NhPQldjt5Ja/4idfkupO5PahoHAQfOy7I18eWyB3XPmDvtDwr+JpwgMmCvi0Ng=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/app.js"></script>
 </body>
 

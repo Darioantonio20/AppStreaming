@@ -1,0 +1,1061 @@
+
+.btn{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.1198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn1{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container1 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container1 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container1.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container1.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn2{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container2 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container2 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container2.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container2.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn3{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container3{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container3 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container3 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container3.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container3.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn4{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container4{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container4 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container4 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container4.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container4.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn5{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container5{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container5 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container5 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container5.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container5.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn6{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container6{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container6 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container6 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container6.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container6.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn7{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container7{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container7 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container7 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container7.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container7.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn8{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container8{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container8 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container8 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container8.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container8.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn9{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container9{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container9 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container9 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container9.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container9.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn10{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container10{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container10 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container10 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container10.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container10.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn11{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container11{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container11 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container11 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container11.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container11.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn12{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container12{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container12 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container12 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container12.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container12.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn13{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container13{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container13 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container13 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container13.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container13.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn14{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container14{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container14 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container14 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container14.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container14.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn15{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container15{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container15 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container15 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container15.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container15.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn16{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container16{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container16 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container16 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container16.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container16.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn17{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container17{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container17 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container17 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container17.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container17.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn18{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container18{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container18 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container18 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container18.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container18.show video{
+    transform: scale(1);
+}
+/*++++++++*/
+.btn19{
+    padding: 10px;
+    background-color: #e58d09;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.video-container19{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 108;
+    background-color: rgba(0, 0, 0, 0.798);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.video-container19 .close{
+    position: absolute;
+    top: 0.5%;
+    right: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video-container19 video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+.video-container19.show{
+    pointer-events: all;
+    opacity: 50;
+}
+.video-container19.show video{
+    transform: scale(1);
+}
+/*++++++++*/
